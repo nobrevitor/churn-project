@@ -51,10 +51,10 @@ Essa limitação da ferramenta não compromete a arquitetura, pois a RAW continu
 
 ### Exemplos de Tabelas
 
-* `olist_customers_dataset`
-* `olist_orders_dataset`
-* `olist_order_items_dataset`
-* `olist_payments_dataset`
+* `clientes`
+* `pedidos`
+* `itens_pedido`
+* `pagamentos`
 
 ---
 
@@ -68,10 +68,8 @@ Nenhuma regra de negócio é aplicada nesta camada.
 
 ### Responsabilidades
 
-* Seleção de colunas relevantes
 * Padronização de nomes (snake_case)
 * Conversão de tipos (datas, timestamps, numéricos)
-* Remoção de colunas inúteis ou redundantes
 * Garantia de schema estável
 
 ### Schema
@@ -82,10 +80,10 @@ workspace.olist_bronze
 
 ### Exemplos de Tabelas
 
-* `bronze_customers`
-* `bronze_orders`
-* `bronze_order_items`
-* `bronze_payments`
+* `clientes_bronze`
+* `pedidos_bronze`
+* `itens_pedido_bronze`
+* `pagamentos_bronze`
 
 ---
 
